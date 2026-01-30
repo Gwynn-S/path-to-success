@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
-body, h1, h2, h3, h4, p, ul{
+*{
     padding: 0;
     margin: 0;
     font-weight: normal;
@@ -33,10 +33,24 @@ img{
 body{
     max-width: 450px;
     font-family: inter;
+    background-color: var(--Lavender);
+
+}
+
+nav {
+    background-color: var(--Yellow);
+    color: var(--Purple);
+   
+}
+
+div{
+    background-color: var(--White);
+    margin: 20px;
 }
 
 h1, h2{
     font-family: kavoon;
+    color: var(--White);
 }
 
 
@@ -50,8 +64,38 @@ h2{
 
 h3{
     font-size: 1.5em;
+    color: var(--Yellow);
+    background-color: var(--Purple);
 }
 
 h4{
     font-size: 1.15em;
+    color: var(--Purple);
+}
+section{
+    background-color: var(--Purple);
+    padding: 5px;
+}
+
+#why_us{
+    background-color: var(--Pink);
+}
+
+thead{
+    background-color: var(--Yellow);
+    color: var(--Dark-gray);
+}
+
+#scheduling{
+    background-color: var(--Pink);
+}
+
+#scheduling a{
+    background-color: var(--White);
+    color: var(--Dark-gray);
+}
+
+footer{
+    color: var(--White);
+    background-color: var(--Purple);
 }
