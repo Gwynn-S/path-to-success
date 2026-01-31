@@ -4,22 +4,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
-*{
-    padding: 0;
-    margin: 0;
-    font-weight: normal;
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-ul{
-    list-style: none;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
 /* ROOT VARIABLES */
-:root{
+ :root{
     --Teal :    #4CA7C0;
     --Purple:   #484FB7;
     --Lavender: #6B8FE7;
@@ -30,22 +66,23 @@ img{
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-body{
+ body{
     max-width: 450px;
     font-family: inter;
     background-color: var(--Lavender);
-
+    margin: auto;
+    padding: auto;
 }
 
-nav {
-    background-color: var(--Yellow);
-    color: var(--Purple);
-   
+/* header */
+header{
+    background-color: var(--Purple);
+    color: var(--White);
+    text-align: center;
 }
 
-div{
-    background-color: var(--White);
-    margin: 20px;
+h1{
+    font-size: 3em;
 }
 
 h1, h2{
@@ -53,9 +90,19 @@ h1, h2{
     color: var(--White);
 }
 
+/* nav */
+nav {
+    background-color: var(--Yellow);
+    color: var(--Purple);  
+}
+
 
 nav h2{
     font-size: 1.5em;
+    color: var(--Dark-gray);
+font-family: inter;
+font-weight:700;
+font-style: italic;
 }
 
 h2{
@@ -74,7 +121,11 @@ h4{
 }
 section{
     background-color: var(--Purple);
-    padding: 5px;
+}
+
+section div{
+    background-color: var(--White);
+    margin: 20px;
 }
 
 #why_us{
@@ -98,4 +149,14 @@ thead{
 footer{
     color: var(--White);
     background-color: var(--Purple);
+}  
+
+#why_us{
+padding: 20px;
+
+}
+
+#why_us li{
+    background-color: var(--White);
+    border: 5px solid --Lavender;
 }
