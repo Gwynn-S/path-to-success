@@ -232,7 +232,7 @@ thead{
 }
 
 tr th{
-    padding: 20px;
+    padding: 15px;
     border: 1px solid var(--Yellow);
 }
 
@@ -247,11 +247,20 @@ tr td{
     background-color: var(--Pink);
     color: var(--White);
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+#scheduling h2{
+    margin: 0;
+    padding-left: 15px;
+    text-align: left;
 }
 
 #scheduling p{
     text-align: left;
-    margin: 10px;
+    margin: 15px;
+    padding-bottom: 15px;
 }
 
 #scheduling a{
@@ -259,10 +268,21 @@ tr td{
     color: var(--Dark-gray);
     color: var(--Dark-gray);
     text-decoration: none;
+    margin: 10px;
+    padding: 15px 8rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--Dark-gray);
 }
 
 /* footer */
 footer{
+    text-align: center;
     color: var(--White);
     background-color: var(--Purple);
+    padding: 40px 30px 15px;
 }  
+
+footer a{
+    color: var(--White);
+    padding-left: 55px;
+}
