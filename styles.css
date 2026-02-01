@@ -89,7 +89,6 @@ h2{
 
 section h2,section h3{
     margin-left: 20px;
-    
 }
 
 h3{
@@ -107,6 +106,7 @@ h4{
     font-weight: bolder;
     margin-bottom: 10px;
 }
+
 section{
     background-color: var(--Purple);
     padding-bottom: 20px;
@@ -132,7 +132,6 @@ header small{
     font-style: italic;
     margin-bottom: 1rem;
 }
-
 
 /* nav */
 nav {
