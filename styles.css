@@ -210,6 +210,10 @@ section img{
 
 /* pricing section */
 
+#pricing{
+    padding-bottom: 10px;
+}
+
 #pricing h2{
     padding-top: 15px;
 }
@@ -260,13 +264,14 @@ tr td{
     text-align: left;
     margin: 15px;
     padding-bottom: 15px;
+    line-height: 25px;
 }
 
 #scheduling a{
     background-color: var(--White);
     color: var(--Dark-gray);
-    color: var(--Dark-gray);
     text-decoration: none;
+    font-weight: bolder;
     margin: 10px;
     padding: 15px 8rem;
     border-radius: 15px;
@@ -278,7 +283,8 @@ footer{
     text-align: center;
     color: var(--White);
     background-color: var(--Purple);
-    padding: 40px 30px 15px;
+    padding: 40px;
+    margin-bottom: 3rem;
 }  
 
 footer a{
