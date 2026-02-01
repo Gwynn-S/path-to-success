@@ -74,15 +74,9 @@ table {
     padding: auto;
 }
 
-/* header */
-header{
-    background-color: var(--Purple);
-    color: var(--White);
-    text-align: center;
-}
-
 h1{
     font-size: 3em;
+    padding-bottom: 10px;
 }
 
 h1, h2{
@@ -90,53 +84,121 @@ h1, h2{
     color: var(--White);
 }
 
-/* nav */
-nav {
-    background-color: var(--Yellow);
-    color: var(--Purple);  
-}
-
-
-nav h2{
-    font-size: 1.5em;
-    color: var(--Dark-gray);
-font-family: inter;
-font-weight:700;
-font-style: italic;
-}
-
 h2{
     font-size: 2em;
 }
 
+section h2,section h3{
+    margin-left: 20px;
+}
+
 h3{
     font-size: 1.5em;
+    font-weight: bold;
     color: var(--Yellow);
     background-color: var(--Purple);
+    padding-top: 10px;
 }
 
 h4{
     font-size: 1.15em;
     color: var(--Purple);
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
 section{
     background-color: var(--Purple);
+    padding-bottom: 20px;
 }
 
-section div{
+section section{
     background-color: var(--White);
     margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
 }
 
+/* header */
+header{
+    background-color: var(--Purple);
+    color: var(--White);
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px 5px 0px;
+}
+
+header small{
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+
+/* nav */
+nav {
+    background-color: var(--Yellow);
+    color: var(--Purple);  
+    margin: 50px 0 1em;
+    padding: 20px;
+}
+
+li {
+    background-color: var(--White);
+    margin-bottom: 10px;
+    padding: 1em;
+}
+
+li a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav h2{
+    font-size: 1.5em;
+    color: var(--Dark-gray);
+    font-family: inter;
+    font-weight:700;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+/* our services section */
+section img{
+    margin-bottom: 20px;
+}
+
+/* why choose us section */
 #why_us{
     background-color: var(--Pink);
+    padding: 20px;
 }
 
+#why_us li{
+    border-radius: 15px;
+} 
+
+#teal_item{
+    background-color: var(--Teal);
+}
+
+#lavender_item{
+    background-color: var(--Lavender);
+}
+
+#yellow_item{
+    background-color: var(--Yellow);
+}
+
+#white_item{
+    background-color: var(--White);
+}
+
+/* pricing section */
 thead{
     background-color: var(--Yellow);
     color: var(--Dark-gray);
 }
 
+/* scheduling section */
 #scheduling{
     background-color: var(--Pink);
 }
@@ -146,17 +208,8 @@ thead{
     color: var(--Dark-gray);
 }
 
+/* footer */
 footer{
     color: var(--White);
     background-color: var(--Purple);
 }  
-
-#why_us{
-padding: 20px;
-
-}
-
-#why_us li{
-    background-color: var(--White);
-    border: 5px solid --Lavender;
-}
